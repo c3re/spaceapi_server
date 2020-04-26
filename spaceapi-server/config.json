@@ -1,0 +1,7 @@
+{
+  "address": "::",
+  "port": 8080,
+  "template": "/etc/spaceapi-server/template.json",
+  "plugins_dir": "/etc/spaceapi-server/plugins",
+  "plugins": {}
+}
