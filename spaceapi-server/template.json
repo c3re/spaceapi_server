@@ -1,8 +1,8 @@
 {
     "api":"0.13",
     "space":"Chaostreff Recklinghausen c3RE",
-    "logo":"http://wiki.***REMOVED***/images/4/49/Logo_weiss_rund_schwarzer_Rand.png",
-    "url":"http://***REMOVED***",
+    "logo":"https://wiki.***REMOVED***/images/4/49/Logo_weiss_rund_schwarzer_Rand.png",
+    "url":"https://***REMOVED***",
     "location":{
         "address":"Westcharweg 101, 45659 Recklinghausen",
         "lon":7.1690101828426,
@@ -10,11 +10,11 @@
     },
     "contact":{
         "twitter":"@c3_re",
-        "email":"Chaostreff@c3RE.de",
-        "issue_mail":"Chaostreff@c3RE.de"
+        "email":"kontakt@c3RE.de",
+        "issue_mail":"kontakt@c3RE.de"
         },
     "issue_report_channels":[
-        "issue_mail"
+        "kontakt@c3RE.de"
     ],
     "state":{
         "open":"{{ c3re_get_doorstatus() }}"
@@ -24,12 +24,12 @@
      	 {
        	 	"location": "Clubraum",
         	"unit": "°C",
-        	"value": "{{ c3re_get_clubraumtemp() }}"
+        	"value": "{{ c3re_get_clubraum_temp() }}"
       	},
       	{
         	"location": "Werkstatt",
         	"unit": "°C",
-        	"value": "{{ c3re_get_werkstatt() }}"
+        	"value": "{{ c3re_get_werkstatt_temp() }}"
       	}
     	]
     },
