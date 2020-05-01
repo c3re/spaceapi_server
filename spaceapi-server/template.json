@@ -1,8 +1,8 @@
 {
     "api":"0.13",
     "space":"Chaostreff Recklinghausen c3RE",
-    "logo":"https://wiki.***REMOVED***/images/4/49/Logo_weiss_rund_schwarzer_Rand.png",
-    "url":"https://***REMOVED***",
+    "logo":"https://wiki.c3re.de/images/4/49/Logo_weiss_rund_schwarzer_Rand.png",
+    "url":"https://c3re.de",
     "location":{
         "address":"Westcharweg 101, 45659 Recklinghausen",
         "lon":7.1690101828426,
@@ -35,6 +35,6 @@
     },
     "projects":[
         "https://github.com/c3re",
-        "https://git.***REMOVED***"
+        "https://git.c3re.de"
         ]
 }
