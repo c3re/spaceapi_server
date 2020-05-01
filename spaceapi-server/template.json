@@ -14,7 +14,7 @@
         "issue_mail":"kontakt@c3RE.de"
         },
     "issue_report_channels":[
-        "kontakt@c3RE.de"
+        "email"
     ],
     "state":{
         "open":"{{ c3re_get_doorstatus() }}"
